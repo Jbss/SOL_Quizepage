@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaveOceanLife</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('./seascape-4636549_1920.jpg');
+            background-size: cover;
+        }
+        button {
+            margin: 20px;
+        }
+        .w-btn {
+            position: relative;
+            border:none;
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius:15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.25s;
+        }
+        .w-btn-outline {
+            position: relative;
+            padding: 15px 30px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.25s;
+        }
+        .w-btn:hover {
+            letter-spacing:2px;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+        .w-btn:active {
+            transform: scale(1.5);
+        }
+        .w-btn-outline:hover {
+            letter-spacing:2px;
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+        .w-btn-main {
+            background-color: #f199bc;
+            color: #d4dfe6;
+        }
+        .w-btn-main-outline {
+            border:3px solid #f199bc;
+            color:#6e6e6e;
+        }
+        .w-btn-main-outline:hover {
+            background-color: #f199bc;
+            color: #d4dfe6;
+        }
+        .w-btn-jump {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            color: white;
+        }
+        .w-btn-jump {
+            background-size: 400% 400%;
+            animation: gradient 5s ease infinite;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 100% 50%;
+            }
+            50% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+        * {
+            font-family: 'Jua', sans-serif;
+        }
+        font
+        html,
+        body {
+            background-color: #fcd8f0;
+        }
+        .h1 {
+            display: grid;
+            place-items: center;
+        }
+        h1 {
+            font-size: 60px;
+            background: linear-gradient(45deg, #00055e,#00c3ff);
+            color: transparent;
+            -webkit-background-clip: text;
+            text-align: center;
+        }
+        p {
+            font-size: 30px;
+            background: linear-gradient(45deg, #3b0215,#840014,#ff0048,#bf2bff,#8161ff,#6aeeff,#69fff0);
+            color: transparent;
+            -webkit-background-clip: text;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <button class="w-btn w-btn-main" type="button" onclick="location.href='https://jbss.github.io/SOL/'">
+        메인화면으로
+    </button>
+    <h1>해설</h1>
+    <p>#퀴즈가 끝난 후 이용해주시기 바랍니다.</p>
+    <center>
+        <button class="w-btn w-btn-jump" type="button" onclick="location.href='https://jbss.github.io/SOL_Quizexplanation/'">
+            해설 바로가기
+        </button>
+    </center>   
+</body>
+</html>
